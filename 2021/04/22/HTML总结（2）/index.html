@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>HTML总结（2） - CoderLei</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="CoderLei"><meta name="msapplication-TileImage" content="/img/favicon1.ico"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="CoderLei"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="本文将继续介绍一些关于HTML的基础知识"><meta property="og:type" content="blog"><meta property="og:title" content="HTML总结（2）"><meta property="og:url" content="http://example.com/2021/04/22/HTML%E6%80%BB%E7%BB%93%EF%BC%882%EF%BC%89/"><meta property="og:site_name" content="CoderLei"><meta property="og:description" content="本文将继续介绍一些关于HTML的基础知识"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="http://example.com/2021/04/22/HTML%E6%80%BB%E7%BB%93%EF%BC%882%EF%BC%89/a%E6%A0%87%E7%AD%BE.png"><meta property="og:image" content="http://example.com/2021/04/22/HTML%E6%80%BB%E7%BB%93%EF%BC%882%EF%BC%89/%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8.png"><meta property="og:image" content="http://example.com/2021/04/22/HTML%E6%80%BB%E7%BB%93%EF%BC%882%EF%BC%89/%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8.png"><meta property="og:image" content="http://example.com/2021/04/22/HTML%E6%80%BB%E7%BB%93%EF%BC%882%EF%BC%89/%E6%8F%8F%E8%BF%B0%E5%88%97%E8%A1%A8.png"><meta property="og:image" content="http://example.com/2021/04/22/HTML%E6%80%BB%E7%BB%93%EF%BC%882%EF%BC%89/%E8%A1%A8%E6%A0%BC.png"><meta property="article:published_time" content="2021-04-22T12:48:12.000Z"><meta property="article:modified_time" content="2021-04-23T08:13:36.563Z"><meta property="article:author" content="CoderLei"><meta property="article:tag" content="HTML"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="a%E6%A0%87%E7%AD%BE.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2021/04/22/HTML%E6%80%BB%E7%BB%93%EF%BC%882%EF%BC%89/"},"headline":"HTML总结（2）","image":["http://example.com/2021/04/22/HTML%E6%80%BB%E7%BB%93%EF%BC%882%EF%BC%89/a%E6%A0%87%E7%AD%BE.png","http://example.com/2021/04/22/HTML%E6%80%BB%E7%BB%93%EF%BC%882%EF%BC%89/%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8.png","http://example.com/2021/04/22/HTML%E6%80%BB%E7%BB%93%EF%BC%882%EF%BC%89/%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8.png","http://example.com/2021/04/22/HTML%E6%80%BB%E7%BB%93%EF%BC%882%EF%BC%89/%E6%8F%8F%E8%BF%B0%E5%88%97%E8%A1%A8.png","http://example.com/2021/04/22/HTML%E6%80%BB%E7%BB%93%EF%BC%882%EF%BC%89/%E8%A1%A8%E6%A0%BC.png"],"datePublished":"2021-04-22T12:48:12.000Z","dateModified":"2021-04-23T08:13:36.563Z","author":{"@type":"Person","name":"CoderLei"},"description":"本文将继续介绍一些关于HTML的基础知识"}</script><link rel="canonical" href="http://example.com/2021/04/22/HTML%E6%80%BB%E7%BB%93%EF%BC%882%EF%BC%89/"><link rel="icon" href="/img/favicon1.ico"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/font-awesome/5.12.0/css/all.min.css"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css"><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/cookieconsent/3.1.1/cookieconsent.min.css"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/lightgallery/1.6.8/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/justifiedGallery/3.7.0/css/justifiedGallery.min.css"><!--!--><!--!--><script src="https://cdnjs.loli.net/ajax/libs/pace/1.0.2/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.4.0"></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo1.png" alt="CoderLei" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">主页</a><a class="navbar-item" href="/archives">归档</a><a class="navbar-item" href="/categories">分类</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/xulei-blog"><i class="fab fa-github"></i></a><a class="navbar-item search" title="搜索" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2021-04-22T12:48:12.000Z" title="2021-4-22 8:48:12 ├F10: PM┤">2021-04-22</time>发表</span><span class="level-item"><a class="link-muted" href="/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/">前端基础</a><span> / </span><a class="link-muted" href="/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/HTML/">HTML</a></span><span class="level-item">11 分钟读完 (大约1596个字)</span></div></div><h1 class="title is-3 is-size-4-mobile">HTML总结（2）</h1><div class="content"><p>本文将继续介绍一些关于HTML的基础知识</p>
+<span id="more"></span>
+
+<h3 id="基本HTML标签"><a href="#基本HTML标签" class="headerlink" title="基本HTML标签"></a>基本HTML标签</h3><ol start="6">
+<li><p>常用特殊字符</p>
+<table>
+<thead>
+<tr>
+<th>特殊字符</th>
+<th align="center">含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>&amp;nbsp;</code></td>
+<td align="center">空格</td>
+</tr>
+<tr>
+<td><code>&amp;gt;</code></td>
+<td align="center">大于号</td>
+</tr>
+<tr>
+<td><code>&amp;lt;</code></td>
+<td align="center">小于号</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>div标签和span标签（<strong>常用</strong>）</p>
+<ul>
+<li><p>div标签</p>
+<p>块级元素，会独占一行。</p>
+</li>
+<li><p>span标签</p>
+<p>内联元素（行内标签），不会独占一行，但是行内元素会有默认的小间隙。不能设置高度和宽度，大小由其内容决定。</p>
+</li>
+<li><p>div标签和span标签虽然经常使用，但是无语义，<strong>推荐使用语义元素</strong>。网页中div和span数量过多，会难以阅读。</p>
+</li>
+<li><p>建议使用div标签和span标签时使用class（<strong>常用</strong>）或id属性来标识元素，以便CSS进行样式控制。</p>
+</li>
+</ul>
+</li>
+<li><p>img标签</p>
+<p>示例</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;images/图片名称&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;替换文本&quot;</span> <span class="attr">title</span>=<span class="string">&quot;图片标题&quot;</span> <span class="attr">width</span>=<span class="string">&quot;宽度&quot;</span> <span class="attr">height</span>=<span class="string">&quot;高度&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>img标签是行内元素，多个img标签会出现在一行。</li>
+<li>src属性：指定想要引入的图片的路径，相对路径和绝对路径都可以，推荐相对路径。因为使用绝对路径，会产生多余的HTTP请求，影响图片和网页加载时间。</li>
+<li>alt属性：指定图片的替换文本，当图片加载失败时（路径错误或者图片类型不支持），alt指定的替换文本就会显示在图片的占位区域。替换文本应该可以比较准确的描述图片的内容，让用户有好的阅读体验。</li>
+<li>title属性：指定图片的标题，当鼠标悬停在图片上方时，会出现title属性指定的文本。</li>
+<li>可以使用width和height属性来指定图片的宽度和高度，默认大小是图片本身的尺寸。（这种做法<strong>并不推荐</strong>，应该使用CSS来改变图片的样式而不是HTML）。</li>
+</ul>
+</li>
+<li><p>a标签（超链接）</p>
+<p>示例</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;链接地址&quot;</span> <span class="attr">title</span>=<span class="string">&quot;提示文本&quot;</span> <span class="attr">target</span>=<span class="string">&quot;_blank&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<ul>
+<li><p>a标签可以将文本、图像内容等转换为链接。超链接可以使得我们的文档链接到其他任何的文档（或者其他的资源）。</p>
+</li>
+<li><p>a标签会有默认样式，链接文本会有下划线，点击后的超链接为紫色字体，可以使用CSS修改样式。<img src="a%E6%A0%87%E7%AD%BE.png"></p>
+</li>
+<li><p>href属性：指定链接指向的地址（网页或者其他类型文件），可以使用相对路径和绝对路径（<strong>推荐使用前者，原因和img标签类似</strong>）。</p>
+</li>
+<li><p>title属性：和img标签中title属性类似，用于提示文本。</p>
+</li>
+<li><p>target属性：指定链接页面的打开方式。默认值是_self，在当前标签页中打开。还可以设置<code>_blank</code>属性值，在新窗口中打开。</p>
+</li>
+<li><p>a标签中可以嵌套文本，也可以嵌套img标签。当点击图片时，就会跳转到链接地址。</p>
+</li>
+<li><p>href属性可以指定为#或者javascript:;属性值，变成空链接，当点击时，不会发生任何跳转。</p>
+</li>
+<li><p>超链接不仅可以链接到HTML文件，还可以链接到非HTML文档，如PDF、Word文档或者音频视频等文件。</p>
+<table>
+<thead>
+<tr>
+<th align="center">链接分类</th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">外部链接</td>
+<td align="center">href属性指定URL地址，指向外部网站的页面</td>
+</tr>
+<tr>
+<td align="center">内部链接</td>
+<td align="center">href属性指向网站内部页面</td>
+</tr>
+<tr>
+<td align="center">锚点链接</td>
+<td align="center">超链接可以链接到网页文档中一部分内容，需要给内容添加id属性标识，超链接href属性指定为#id属性值。</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+</li>
+<li><p>列表标签</p>
+<ul>
+<li><p>无序列表（ul）</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">ul</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>列表项1<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>列表项2<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>列表项3<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>列表项4<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>使用li标签包裹列表项，每个列表项之间<strong>没有顺序关系</strong>。li标签会有默认样式（小圆圈），可以使用CSS修改样式。</p>
+<p><img src="%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8.png"></p>
+</li>
+<li><p>有序列表（ol）</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">ol</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>列表项1<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>列表项2<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>列表项3<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>列表项4<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">ol</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>和无序列表相同，使用li标签包裹列表项，但是列表项之间<strong>有顺序关系</strong>，同样有默认样式。</p>
+<p><img src="%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8.png"></p>
+</li>
+<li><p>描述列表（dl）</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dl</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">dt</span>&gt;</span>项目1<span class="tag">&lt;/<span class="name">dt</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">dd</span>&gt;</span>描述1<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">dd</span>&gt;</span>描述2<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">dt</span>&gt;</span>项目2<span class="tag">&lt;/<span class="name">dt</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">dd</span>&gt;</span>描述1<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">dt</span>&gt;</span>项目3<span class="tag">&lt;/<span class="name">dt</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">dd</span>&gt;</span>描述1<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">dl</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p>描述列表（description list）也称自定义列表，主要是为了标记一组项目及其描述，如术语与其定义等。</p>
+<p>使用dt标签（description term）定义项目，dd标签（description description）定义其描述。每一个dt可以对应于多个dd。浏览器对于描述列表会有默认样式，在dt与dd之间产生缩进。</p>
+<p><img src="%E6%8F%8F%E8%BF%B0%E5%88%97%E8%A1%A8.png"></p>
+</li>
+</ul>
+</li>
+<li><p>表格</p>
+<ul>
+<li><p>表格的主要作用就是以结构化的形式显示数据，之前会用来做一些布局工作（历史原因），但是现在<strong>不推荐使用表格来布局</strong>。</p>
+<p>示例</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">table</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">thead</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">tr</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">th</span>&gt;</span>标题1<span class="tag">&lt;/<span class="name">th</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">th</span>&gt;</span>标题2<span class="tag">&lt;/<span class="name">th</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">th</span>&gt;</span>标题3<span class="tag">&lt;/<span class="name">th</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">thead</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">tbody</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">tr</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">td</span>&gt;</span>内容1<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">td</span>&gt;</span>内容2<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">td</span>&gt;</span>内容3<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">tr</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">td</span>&gt;</span>内容1<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">td</span>&gt;</span>内容2<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">td</span>&gt;</span>内容3<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">tbody</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br></pre></td></tr></table></figure></li>
+<li><p>整个表格table标签来创建，表格的所有内容都需要嵌套在<table></table>内。</p>
+</li>
+<li><p>thead标签和tbody标签用来标识表格的头部区域和主体区域，并不会显示在页面中。如果不在表格中指定thead和tbody，默认会使用tbody来包裹所有内容。</p>
+</li>
+<li><p>tr标签（table row）指定表格每一行，tr标签数等于表格行数。tr标签内嵌套th标签和td标签。</p>
+</li>
+<li><p>th标签（table head）和td标签（table description）都是指定表格的单元格，区别是th表示的是标题单元格，而td表示的是描述单元格。th会有默认的浏览器样式，标题会居中加粗。</p>
+<p><img src="%E8%A1%A8%E6%A0%BC.png"></p>
+</li>
+<li><p>标题和单元格有colspan和rowspan两个属性，可以指定每个单元格跨多少行，多少列。</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">th</span> <span class="attr">rowspan</span>=<span class="string">&quot;2&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">th</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span> <span class="attr">colspan</span>=<span class="string">&quot;2&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br></pre></td></tr></table></figure></li>
+<li><p>结构标签除了有thead和tbody还有tfoot，用来定义表格的页脚，但是不常用。</p>
+</li>
+<li><p>表格中还可以嵌套表格，但是不推荐。因为这样会使得表格结构十分不清晰。</p>
+</li>
+</ul>
+</li>
+</ol>
+</div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/HTML/">HTML</a></div><!--!--></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2021/04/20/HTML%E6%80%BB%E7%BB%93%EF%BC%881%EF%BC%89/"><span class="level-item">HTML总结（1）</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><!--!--></div><div class="column column-left is-4-tablet is-4-desktop is-3-widescreen  order-1"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar is-rounded" src="/img/avatar.jpg" alt="CoderLei"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">CoderLei</p><p class="is-size-6 is-block">菜鸡前端程序员</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>西安-中国</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">文章</p><a href="/archives"><p class="title">3</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">分类</p><a href="/categories"><p class="title">3</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">标签</p><a href="/tags"><p class="title">2</p></a></div></div></nav><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/xulei-blog"><i class="fab fa-github"></i></a></div></div></div><div class="column-right-shadow is-hidden-widescreen"></div></div><div class="column column-right is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only order-3"><!--!--><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">分类</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/"><span class="level-start"><span class="level-item">前端基础</span></span><span class="level-end"><span class="level-item tag">2</span></span></a><ul><li><a class="level is-mobile" href="/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/HTML/"><span class="level-start"><span class="level-item">HTML</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></li><li><a class="level is-mobile" href="/categories/%E5%8D%9A%E5%AE%A2/"><span class="level-start"><span class="level-item">博客</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></div></div></div><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">最新文章</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-04-22T12:48:12.000Z">2021-04-22</time></p><p class="title"><a href="/2021/04/22/HTML%E6%80%BB%E7%BB%93%EF%BC%882%EF%BC%89/">HTML总结（2）</a></p><p class="categories"><a href="/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/">前端基础</a> / <a href="/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/HTML/">HTML</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-04-20T14:36:19.000Z">2021-04-20</time></p><p class="title"><a href="/2021/04/20/HTML%E6%80%BB%E7%BB%93%EF%BC%881%EF%BC%89/">HTML总结（1）</a></p><p class="categories"><a href="/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/">前端基础</a> / <a href="/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/HTML/">HTML</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-06-20T06:18:23.000Z">2020-06-20</time></p><p class="title"><a href="/2020/06/20/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%9C%A8GitHub%E5%8F%91%E5%B8%83/">hexo博客搭建与在GitHub发布</a></p><p class="categories"><a href="/categories/%E5%8D%9A%E5%AE%A2/">博客</a></p></div></article></div></div></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/logo1.png" alt="CoderLei" height="28"></a><p class="is-size-7"><span>&copy; 2021 CoderLei</span></p></div><div class="level-end"></div></div></div></footer><script src="https://cdnjs.loli.net/ajax/libs/jquery/3.3.1/jquery.min.js"></script><script src="https://cdnjs.loli.net/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script><script src="https://cdnjs.loli.net/ajax/libs/clipboard.js/2.0.4/clipboard.min.js" defer></script><script>moment.locale("zh-CN");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="回到顶端" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdnjs.loli.net/ajax/libs/cookieconsent/3.1.1/cookieconsent.min.js" defer></script><script>window.addEventListener("load", () => {
+      window.cookieconsent.initialise({
+        type: "info",
+        theme: "edgeless",
+        static: false,
+        position: "bottom-left",
+        content: {
+          message: "此网站使用Cookie来改善您的体验。",
+          dismiss: "知道了！",
+          allow: "允许使用Cookie",
+          deny: "拒绝",
+          link: "了解更多",
+          policy: "Cookie政策",
+          href: "https://www.cookiesandyou.com/",
+        },
+        palette: {
+          popup: {
+            background: "#edeff5",
+            text: "#838391"
+          },
+          button: {
+            background: "#4b81e8"
+          },
+        },
+      });
+    });</script><script src="https://cdnjs.loli.net/ajax/libs/lightgallery/1.6.8/js/lightgallery.min.js" defer></script><script src="https://cdnjs.loli.net/ajax/libs/justifiedGallery/3.7.0/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="想要查找什么..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"想要查找什么...","untitled":"(无标题)","posts":"文章","pages":"页面","categories":"分类","tags":"标签"});
+        });</script></body></html>
